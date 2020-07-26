@@ -64,14 +64,14 @@ class ShapeGenerator {
 
         this.zShape = {
 
-            blockPositions: [createVector(0, 0), createVector(1, 0), createVector(1, 1), createVector(2, 1)],
-            rotationPoint: createVector(1, 1),
+            blockPositions: [createVector(-2, 0), createVector(-1, 0), createVector(-1, 1), createVector(0, 1)],
+            rotationPoint: createVector(-1, 1),
             color: color(220, 0, 0)
 
         }
         this.sShape = {
-            blockPositions: [createVector(0, 1), createVector(1, 1), createVector(1, 0), createVector(2, 0)],
-            rotationPoint: createVector(1, 1),
+            blockPositions: [createVector(-2, 1), createVector(-1, 1), createVector(-1, 0), createVector(0, 0)],
+            rotationPoint: createVector(-1, 1),
             color: color(0, 230, 50)
         }
 
