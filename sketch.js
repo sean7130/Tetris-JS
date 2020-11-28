@@ -5,7 +5,7 @@ let deadBlocksMatrix = [];
 let gameWidth;
 let gameHeight;
 let shapeIDs = [];
-let shapeFallRate = 1;//number of falls per second
+// let shapeFallRate = 10;
 
 let horizontalMoveEveryXFrames = 3;// the speed the blocks move when the left or right key is down
 let horizontalMoveCounter = 0;
@@ -44,7 +44,7 @@ function draw() {
     // if (frameCount % 17 === 0) {
     //     currentShape.rotateShape(true);
     // }
-    if (frameCount % int(1000 / shapeFallRate) === 0) {
+    if (frameCount % int(30) === 0) {
         game.moveShapeDown();
     }
 
